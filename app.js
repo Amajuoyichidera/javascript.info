@@ -72,9 +72,60 @@ For an empty string or cancelled input, show “Canceled”
 */
 
 
-const Clicked = () => {
-    let login = prompt('enter user name', '');
-    let password = prompt('enter password' );
-    login == 'Admin' ? password : null ;
-    password == 'Master' ? alert('welcome') : alert('wrong password');
+// const Clicked = () => {
+//     let user = prompt('who are you ?', '')
+
+//     if (user == 'admin') {
+//         let pass = prompt('enter password')
+//         if (pass == 'master') {
+//             alert('welcome')
+//         } else if(pass == '' || null) {
+//             alert('canceled')
+//         } else {
+//             alert('wrong credentials')
+//         }
+//     } else if(user == '' || null) {
+//         alert('request aborted')
+//     } else {
+//         alert('i dont kow you')
+//     }
+// }
+
+
+// let name;
+// let otherName = name ?? 'david';
+// alert(otherName)
+
+
+// let i = 0;
+// do {
+//   alert( i );
+//   i++;
+// //   console.log(i);
+// } while (i < 3);
+
+
+// for(let num = 1; num <= 100; num++) {
+//     console.log(num);
+// }
+
+
+// let sum = 0;
+
+// while (true) {
+
+//   let value = +prompt("Enter a number", '');
+
+//   if (!value) break; // (*)
+
+//   sum += value;
+
+// }
+// alert( 'Sum: ' + sum );
+
+
+for(num = 0; num < 20; num++) {
+   let odd = num % 2
+   alert(num)
+   alert(odd)
 }
