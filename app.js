@@ -261,7 +261,7 @@ switch (a) {
   case 2:
   case 3:
     alert( '2,3' )
-    break;100
+    break;
   default:
     alert('wrong')
     break;
