@@ -249,20 +249,126 @@ if (a == 2 || a == 3) {
 
 // solution
 
-let a = +prompt('a?', '');
+// let a = +prompt('a?', '');
 
-switch (a) {
-  case 0:
-    alert(0)
-    break;
-  case 1:
-    alert(1)
-    break;
-  case 2:
-  case 3:
-    alert( '2,3' )
-    break;
-  default:
-    alert('wrong')
-    break;
+// switch (a) {
+//   case 0:
+//     alert(0)
+//     break;
+//   case 1:
+//     alert(1)
+//     break;
+//   case 2:
+//   case 3:
+//     alert( '2,3' )
+//     break;
+//   default:
+//     alert('wrong')
+//     break;
+// }
+
+
+// let question = prompt('what is the capital of Nigeria ?', '')
+
+// switch(question) {
+//   case('Abuja'):
+//   confirm('are you sure?');
+//   alert('correct')
+//   break;
+//   default:
+//     confirm('are you sure?');
+//     alert('Wrong')
+//   break;
+// }
+
+
+// functions
+
+// function declaration
+
+// let name = prompt('Whats your name?', '')
+
+// const alertName = () => {
+//   let user = (`Hello ${name}, you're welcome to Ikook`)
+//   alert(user)
+// }
+
+// alertName();
+
+// simple calculator
+// let num1 =  +prompt('Enter first number?', )
+// let operator = prompt('enter operator')
+// let num2 =  +prompt('Enter second number?', )
+
+// function Result() {
+//   switch (operator) {
+//     case ('+'):
+//       sum = num1 + num2;
+//       alert(sum)
+//       break;
+//       case ('-'):
+//        sum = num1 - num2;
+//        alert(sum)
+//        break;
+//     default:
+//       break;
+//   }
+// }
+
+// Result()
+
+
+/*
+
+The following function returns true if the parameter age is greater than 18.
+
+Otherwise it asks for a confirmation and returns its result.
+
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  } else {
+    return confirm('Did parents allow you?');
+  }
 }
+Rewrite it, to perform the same, but without if, in a single line.
+
+Make two variants of checkAge:
+
+Using a question mark operator ?
+Using OR
+
+*/
+
+// solution
+
+// function checkAge() {
+//   let age = +prompt('enter age to continue')
+//   age > 18 ? true : confirm('did your parents allow you?')
+//   (age && alert('Welcome'))
+// }
+
+// checkAge()
+
+
+/*
+
+Write a function min(a,b) which returns the least of two numbers a and b.
+
+For instance:
+
+min(2, 5) == 2
+min(3, -1) == -1
+min(1, 1) == 1
+
+*/
+
+// solution
+
+// function min(a, b) {
+//   return a > b ? b : a
+// }
+
+// alert(min(100, 20))
+
+// function expression 
