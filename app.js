@@ -372,3 +372,27 @@ min(1, 1) == 1
 // alert(min(100, 20))
 
 // function expression 
+
+
+/*
+Replace Function Expressions with arrow functions in the code below:
+
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  function() { alert("You agreed."); },
+  function() { alert("You canceled the execution."); }
+);
+*/
+
+// solution
+
+let ask = (question, yes, no) => {
+  confirm(question) ? yes() : no()
+}
+
+ask('will David be successful?',() => alert('You agreed'), () => alert('you disagreed'))
